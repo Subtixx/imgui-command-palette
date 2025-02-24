@@ -1,6 +1,8 @@
 // NOTE: we are putting these at the top, so that IMGUI_DEFINE_MATH_OPERATORS can correctly propagate for this translation unit
 // NOTE: imgui marks the operators as `static`, so there are no ODR violations here
+#ifndef IMGUI_DEFINE_MATH_OPERATORS
 #define IMGUI_DEFINE_MATH_OPERATORS
+#endif
 #include <imgui.h>
 #include <imgui_internal.h>
 
